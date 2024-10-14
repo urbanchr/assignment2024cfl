@@ -7,7 +7,7 @@
 
 * [CW2 description](https://nms.kcl.ac.uk/christian.urban/cfl/cws/cw02.pdf) 
 
-* [CW2 directory](cw2/README.md)
+* [CW2 directory](cw2)
 
 
 
@@ -17,6 +17,6 @@
 
 * [CW3 description](https://nms.kcl.ac.uk/christian.urban/cfl/cws/cw03.pdf)
 
-* [CW3 directory](cw3/README.md)
+* [CW3 directory](cw3)
 
 
