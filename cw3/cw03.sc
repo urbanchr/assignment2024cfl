@@ -6,9 +6,19 @@
 // tokens. For this you need to use the lexer from CW2 and
 // possibly adjust the lexing regular expressions accordingly.
 
+
+// IMPORTANT:
+//
+// you need to include the lexer from CW2, which defines
+// Tokens and tokenise
 // 
-import $file.^.cw2.cw02
-import cw02._
+// one way to do it is via the import statements
+//
+//import $file.^.cw2.cw02
+//import cw02._
+//
+// or copy the code into this directory / file
+// 
 
 
 // parser combinators
@@ -24,7 +34,6 @@ abstract class Parser[I, T](using is: IsSeq[I])  {
 }
 
 // parser combinators
-
 
 // alternative parser
 class AltParser[I : IsSeq, T](p: => Parser[I, T], 
@@ -78,6 +87,17 @@ case object False extends BExp
 case class Bop(o: String, a1: AExp, a2: AExp) extends BExp
 case class Lop(o: String, b1: BExp, b2: BExp) extends BExp
                  
+
+// Parser rules
+lazy val AExp: Parser[List[Token], AExp] = ???
+
+lazy val BExp: Parser[List[Token], BExp] = ???
+
+lazy val Stmt: Parser[List[Token], Stmt] = ???
+
+lazy val Stmts: Parser[List[Token], Block] = ???
+
+lazy val Block: Parser[List[Token], Block] = ???
 
 
 // Interpreter
