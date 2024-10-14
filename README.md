@@ -1,2 +1,22 @@
-# assignment2024cfl
-6CCS3CFL assignment CW 2 &amp; 3
+## CFL Courseworks 2 + 3
+
+
+# CW 2
+
+* Marks 10%, deadline 2nd Jan, 16:00
+
+* [CW2 description](https://nms.kcl.ac.uk/christian.urban/cfl/cws/cw02.pdf) 
+
+* [CW2 directory](cw2/README2.md)
+
+
+
+# CW 3
+
+* Marks 10%, deadline 2nd Jan, 16:00
+
+* [CW3 description](https://nms.kcl.ac.uk/christian.urban/cfl/cws/cw03.pdf)
+
+* [CW3 directory](cw3/README3.md)
+
+
