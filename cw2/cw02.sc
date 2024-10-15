@@ -34,6 +34,8 @@ case class Rec(x: String, v: Val) extends Val
 
 
 // convenience for typing regular expressions
+import scala.language.implicitConversions
+
 def charlist2rexp(s : List[Char]): Rexp = s match {
   case Nil => ONE
   case c::Nil => CHAR(c)
@@ -50,6 +52,11 @@ extension (r: Rexp) {
 
 extension (s: String) {
   def $ (r: Rexp) = RECD(s, r)
+  def | (r: Rexp) = ALT(s, r)
+  def | (r: String) = ALT(s, r)
+  def % = STAR(s)
+  def ~ (r: Rexp) = SEQ(s, r)
+  def ~ (r: String) = SEQ(s, r)
 }
 
 
