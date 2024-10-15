@@ -190,7 +190,7 @@ def lexing_simp(r: Rexp, s: String) : List[(String, String)] =
 
 
 // Language specific code for the While Language 
-// (you need to create the regular expressions - see CW2) 
+// (you need to create the regular expressions - see CW1) 
 
 val KEYWORD : Rexp = ???
 val OP : Rexp = ???
