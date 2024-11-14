@@ -20,3 +20,10 @@
 * [CW3 directory](cw3)
 
 
+# CW 4
+
+* Marks 15%, deadline 2nd Jan, 16:00
+
+* [CW4 description](https://nms.kcl.ac.uk/christian.urban/cfl/cws/cw04.pdf)
+
+* [CW4 directory](cw4)
